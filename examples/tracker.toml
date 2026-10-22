@@ -1,0 +1,48 @@
+# Example config. Tokens are read from environment variables, never from this file.
+
+[tracker]
+jira_projects = ["REL"]
+stale_days = 14
+
+[[customers]]
+name = "Acme Logistics"
+aliases = ["Acme"]
+jira_label = "customer-acme"
+
+[[customers]]
+name = "Brightline Health"
+aliases = ["Brightline"]
+jira_label = "customer-brightline"
+
+[[customers]]
+name = "Cobalt Retail"
+aliases = ["Cobalt"]
+jira_label = "customer-cobalt"
+
+[slack]
+workspace = "relay-demo"
+channels = ["C01FEEDBACK", "C02LAUNCH"]
+token_env = "SLACK_TOKEN"          # bot token with channels:history
+oldest = "1788220800"              # only read messages after this Unix time (Sept 1 2026)
+
+[slack.users]                      # optional: show names instead of Slack user IDs
+U01PR = "Priya Raman"
+U02SA = "Sam Alvarez"
+U03TM = "Tara Moss"
+U04JK = "Jordan Kim"
+
+[jira]
+site = "https://relay-demo.atlassian.net"
+jql = "project = REL AND updated >= -60d ORDER BY updated DESC"
+blocker_label = "launch-blocker"
+email_env = "JIRA_EMAIL"
+token_env = "JIRA_TOKEN"
+
+[confluence]
+site = "https://relay-demo.atlassian.net"
+cql = "space = PROD AND label = requirements"
+
+[sheets]
+spreadsheet_id = "1AbCdEfGhIjKlMnOpQrStUvWxYz"
+range = "Requests!A1:G"
+token_env = "GOOGLE_ACCESS_TOKEN"

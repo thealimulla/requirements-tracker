@@ -1,0 +1,19 @@
+{
+  "_note": "Shape of a GET /wiki/rest/api/content/search?expand=version,body.storage response (trimmed).",
+  "results": [
+    {"id": "884736", "type": "page", "title": "Brightline Health launch requirements",
+     "version": {"when": "2026-10-18T13:20:00.000Z", "by": {"displayName": "Priya Raman"}},
+     "body": {"storage": {"value": "<p>Must-haves for go-live: working SSO (REL-101) and 365-day audit log retention (REL-112).</p>"}},
+     "_links": {"webui": "/spaces/PROD/pages/884736/Brightline+Health+launch+requirements"}},
+    {"id": "884790", "type": "page", "title": "Bulk operations API spec",
+     "version": {"when": "2026-10-11T17:05:00.000Z", "by": {"displayName": "Jordan Kim"}},
+     "body": {"storage": {"value": "<p>Covers the bulk reschedule endpoint (REL-110). Bulk edit of recurring bookings is out of scope for v1.</p>"}},
+     "_links": {"webui": "/spaces/PROD/pages/884790/Bulk+operations+API+spec"}},
+    {"id": "884801", "type": "page", "title": "Q4 reporting improvements",
+     "version": {"when": "2026-09-30T12:00:00.000Z", "by": {"displayName": "Dev Patel"}},
+     "body": {"storage": {"value": "<p>Timezone-aware exports (REL-104) and scheduled reports.</p>"}},
+     "_links": {"webui": "/spaces/PROD/pages/884801/Q4+reporting+improvements"}}
+  ],
+  "start": 0, "limit": 50, "size": 3,
+  "_links": {"base": "https://relay-demo.atlassian.net/wiki"}
+}

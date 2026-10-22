@@ -1,0 +1,22 @@
+{
+  "_note": "Messages as returned by conversations.history, each tagged with the channel it came from.",
+  "messages": [
+    {"type": "message", "channel": "C02LAUNCH", "user": "U01PR", "ts": "1792418700.000100",
+     "text": "Brightline IT says SSO still loops back to the login page for some users. This is blocking go-live, tracking in REL-101.",
+     "reactions": [{"name": "rotating_light", "count": 3}]},
+    {"type": "message", "channel": "C01FEEDBACK", "user": "U02SA", "ts": "1790353200.000200",
+     "text": "Acme asked for report exports that keep the timezone. Today every timestamp comes out in UTC. Filed as REL-104."},
+    {"type": "message", "channel": "C01FEEDBACK", "user": "U03TM", "ts": "1792145520.000300",
+     "text": "Cobalt would like SMS reminders when a shift changes. Their staff don't check email."},
+    {"type": "message", "channel": "C01FEEDBACK", "user": "U02SA", "ts": "1790880000.000400",
+     "text": "Acme ops team is frustrated that recurring bookings can't be edited in bulk. They change ~200 a week by hand."},
+    {"type": "message", "channel": "C02LAUNCH", "user": "U01PR", "ts": "1790947800.000500",
+     "text": "Brightline security review: audit logs have to be kept for a year or we can't launch. REL-112."},
+    {"type": "message", "channel": "C01FEEDBACK", "user": "U04JK", "ts": "1792238400.000600",
+     "text": "Demo of the bulk reschedule endpoint went well with Cobalt, REL-110 is on track."},
+    {"type": "message", "channel": "C01FEEDBACK", "user": "U03TM", "ts": "1792271700.000700",
+     "text": "anyone up for lunch tomorrow?"},
+    {"type": "message", "subtype": "channel_join", "channel": "C02LAUNCH", "user": "U05NW",
+     "ts": "1792314000.000800", "text": "<@U05NW> has joined the channel"}
+  ]
+}

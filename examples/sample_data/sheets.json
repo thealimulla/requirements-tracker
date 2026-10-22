@@ -1,0 +1,11 @@
+{
+  "range": "Requests!A1:G6",
+  "majorDimension": "ROWS",
+  "values": [
+    ["Date", "Customer", "Request", "Requested by", "Owner", "Status", "Jira"],
+    ["2026-10-08", "Cobalt Retail", "Reschedule shifts in bulk through the API", "Ops lead", "Jordan Kim", "In Progress", "REL-110"],
+    ["2026-10-12", "Acme Logistics", "Reminder emails in Spanish", "Account manager", "", "Open"],
+    ["2026-10-14", "Brightline Health", "Location managers should only see their own sites", "IT director", "Dev Patel", "In Review", "REL-118"],
+    ["2026-09-30", "Acme Logistics", "Calendar sync is creating duplicate events", "Admin", "Maya Chen", "Done", "REL-115"]
+  ]
+}
